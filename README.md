@@ -4,12 +4,12 @@ This project is only made to prove my **skills** and **workflow** in frontend we
 It is not a real project and the assets that I've used in this porject are not mine.
 
 #### My DevDependcies:
-* **Babel JS** - _For older browser JS compatibility_
-* **Pug Templating** - _The HTML templating of my choice_
-* **SASS** - _Professional grade CSS extension language_
-* **GulpJS** - _The simple task runner_ 
+* **Babel JS** - For older browser JS compatibility
+* **Pug Templating** - The HTML templating of my choice
+* **SASS** - Professional grade CSS extension language
+* **GulpJS** - The simple task runner 
     * Gulp Zip - To command to zip my source code
-* **PostCSS** - _A tool for transforming CSS with JS plugins_
+* **PostCSS** - A tool for transforming CSS with JS plugins
     * Autoprefixier - CSS prefix for other browser
     * CSSNano - Minified the CSS faster
 
