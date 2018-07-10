@@ -1,0 +1,47 @@
+@import hamburger
+  
+nav
+  border-top: 5px solid #1B775E
+  padding: 1em
+  +desktop
+    padding: 2em
+
+  .container
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+  
+  .navbar-brand a
+    display: block
+    background-image: url('/img/mobile-tenten-logo.svg')
+    background-repeat: no-repeat
+    height: 100%
+    width: 4em
+    +desktop
+      background-image: url('/img/tenten-logo.svg')
+      background-repeat: no-repeat
+      height: 6em
+      width: 6em
+  
+  .navbar-item
+    color: #8B8B8B
+    text-decoration: none
+    font-size: 0.8em
+    margin-right: 5em
+    font-family: 'Input Serif'
+    
+  .navbar-end
+    display: none
+    +desktop
+      margin-right: -4em
+      display: block
+      padding: 20px
+  
+  button.hamburger
+    +desktop
+      display: none
+    
+
+
+
+      
