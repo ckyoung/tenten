@@ -5,11 +5,11 @@ It is not a real project and the assets that I've used in this porject are not m
 
 #### My DevDependcies:
 * **Babel JS** - _For older browser JS compatibility_
-* **Pug Templating** - The HTML templating of my choice
-* **SASS** - Professional grade CSS extension language
-* **GulpJS** - The simple task runner 
+* **Pug Templating** - _The HTML templating of my choice_
+* **SASS** - _Professional grade CSS extension language_
+* **GulpJS** - _The simple task runner_ 
     * Gulp Zip - To command to zip my source code
-* **PostCSS** - A tool for transforming CSS with JS plugins
+* **PostCSS** - _A tool for transforming CSS with JS plugins_
     * Autoprefixier - CSS prefix for other browser
     * CSSNano - Minified the CSS faster
 
