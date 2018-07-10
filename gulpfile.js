@@ -9,7 +9,7 @@ const cssnano = require('cssnano');
 const autoprefixer = require('autoprefixer');
 const browserSync = require('browser-sync').create();
 
-const tasks = ['styles', 'pug', 'scripts', 'copy-svg'];
+const tasks = ['styles', 'pug', 'scripts', 'copy-assets'];
 
 // Setup local server using Browser-sync
 // And watch file changes
@@ -57,9 +57,12 @@ gulp.task('pug', function () {
   .pipe(gulp.dest('dist'));
 });
 
-// Copy SVGs to dist folder
-gulp.task('copy-svg', function () {
+// Copy assets to dist folder
+gulp.task('copy-assets', function () {
   gulp.src('src/assets/svg/*.svg')
+  .pipe(gulp.dest('dist/img'));
+
+  gulp.src('src/assets/stickers/*')
   .pipe(gulp.dest('dist/img'));
 });
 
