@@ -9,6 +9,7 @@ It is not a real project and the assets that I've used in this project are not m
   
 
 #### My DevDependcies:
+*  **Browser Sync** - For live web browser live refresh development
 *  **VueJS** - For simple javascript UI interaction
 *  **Animate CSS** - My choice of CSS animation library
 *  **WOWjs** - Reveal Animations When You Scroll. Very [Animate.css](https://daneden.github.io/animate.css/ "Animate.css") Friend
