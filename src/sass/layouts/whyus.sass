@@ -1,0 +1,74 @@
+section.whyus
+  margin-top: 10em
+  +desktop
+    margin-top: 16em
+  .container
+    display: flex
+    flex-direction: column
+    padding: 0 1em
+    +desktop
+      padding: 0 4em
+
+  article
+    display: flex
+    flex-direction: column
+    font-family: Input Serif
+    margin-bottom: 5em
+    +desktop
+      flex-direction: row
+      margin-bottom: 10em
+      justify-content: space-around
+
+    .content
+      margin-bottom: 2em
+      +desktop
+        width: 105%
+        text-align: right
+      
+      h1.title
+        font-size: 2em
+        color: #2F2B28
+        margin: .5em 0
+        font-weight: bold
+        span.icon
+          background-repeat: no-repeat
+          height: 30px
+          width: 30px
+          display: block
+          float: left
+          margin-top: 5px
+          margin-right: .4em
+        span.icon.bank
+          background-image: url(/img/bank.svg)
+        span.icon.like
+          background-image: url(/img/like.svg)
+        span.icon.star
+          background-image: url(/img/star.svg)
+          float: right
+          margin-left: .4em
+
+      p
+        font-family: sans-serif
+        color: #676767
+        line-height: 1.2em
+
+      span.reason
+        font-size: .8em
+        color: #1B775E
+    
+    figure
+      +desktop
+        margin-left: 8em
+      img
+        +desktop
+          width: 80%
+
+  article.reverse
+    +desktop
+      flex-direction: row-reverse
+      .content
+        text-align: left !important
+      figure
+        margin-right: 2em
+        margin-left: 0 !important
+        
