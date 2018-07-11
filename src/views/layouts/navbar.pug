@@ -8,7 +8,7 @@ nav
       a.navbar-item(href="#") TENTEN PERKS
       a.navbar-item(href="#") RECRUIT
 
-    button.hamburger.hamburger--slider(type="button")
+    button.hamburger.hamburger--slider(type="button" @click="hamburgerToggle = !hamburgerToggle" :class="{'is-active' : hamburgerToggle}")
       span.hamburger-box
       span.hamburger-inner
 
