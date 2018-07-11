@@ -56,3 +56,9 @@ It is not a real open source project. And the assets that I've used in this proj
 ### Note
 	I believe this source code can still be improve by team effort 
 	or by refactoring. 
+
+
+
+> "Never be afraid to fail. Failure is only a stepping stone to
+> improvement. Never be overconfident because that will block your
+> improvement." - Tony Jaa
