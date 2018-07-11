@@ -42,16 +42,16 @@ It is not a real project and the assets that I've used in this project are not m
 	 And after that I configure Gulp browsers-sync for real time browser development.
 
 3. **Developing using Pug and SASS**
-	I use Pug and SASS for better html and CSS management. And to help maintain code easily.
+	- I use Pug and SASS for better html and CSS management. And to help maintain code easily.
 
 4. **Using Vuejs for UI interaction**
-	I use Vuejs to make UI interaction more simple and easily extensible.
+	- I use Vuejs to make UI interaction more simple and easily extensible.
 	
 5. **Animating using Wow and AnimateCSS**
-	Wow and AnimateCSS simplify my UI animation and at the same it can easily use for future my purpose.
+	- Wow and AnimateCSS simplify my UI animation and at the same it can easily use for future my purpose.
 	
 6. **Committing in Git with understandable message**
-	I commit my files to Git with understandable message so I can easily maintain my source code.
+	- I commit my files to Git with understandable message so I can easily maintain my source code.
 
 ### Note
 	I believe this source code can still be improve by team effort 
