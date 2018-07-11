@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "gulp serve"
+    "start": "gulp serve",
+    "zip-dist": "gulp zip"
   },
   "keywords": [],
   "author": "",
