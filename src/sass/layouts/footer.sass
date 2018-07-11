@@ -21,7 +21,34 @@ footer.footer
         text-align: right
         +desktop
           color: #F5F5F5
-        
+
+  .container.end
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    margin-top: 5em
+    text-align: center
+
+    ul.external-links
+      margin-bottom: 2em
+      img
+        height: 50px
+      li
+        margin-right: 1em
+        display: inline
+
+    .footer-logobar
+      width: 100%
+      +desktop
+        width: 50%
+      p
+        font-family: sans-serif
+        color: #a0a0a0
+      figure
+        img
+          height: 100px
+          margin-bottom: 2em
 
   ul.links
     z-index: 100
@@ -31,6 +58,7 @@ footer.footer
       border-top: 4px solid #28b58f
       width: 84px
       a
+        cursor: pointer
         font-family: Input Serif
         color: #F5F5F5
         text-decoration: none
@@ -70,3 +98,25 @@ footer.footer::before
   +desktop
     top: -195px
       
+
+// Hidden footer
+footer.footer-hidden
+  display: none
+  margin-top: -2.5em
+  position: fixed
+  right: 0
+  bottom: 0
+  width: 100%
+  background-color: #28b58f
+  z-index: 1000
+  +desktop
+    
+
+footer.footer-hidden
+  padding: 2em
+  .container
+    
+
+footer.footer-hidden.is-active
+  display: block
+  
