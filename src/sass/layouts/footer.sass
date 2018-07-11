@@ -1,0 +1,72 @@
+footer.footer
+  background: #1D1D1D
+  margin-top: 10em
+  padding: 4em 2em
+  position: relative
+
+  .container
+    display: flex
+    flex-direction: row
+    justify-content: flex-start
+    +desktop
+      justify-content: space-between
+      padding: 0 4em
+
+    section.find-here
+      width: 30%
+      color: #353535
+      z-index: 1
+      h1
+        font-size: 4.5em
+        text-align: right
+        +desktop
+          color: #F5F5F5
+        
+
+  ul.links
+    z-index: 100
+    li
+      margin-bottom: 4.5em 
+      padding-top: 1em
+      border-top: 4px solid #28b58f
+      width: 84px
+      a
+        font-family: Input Serif
+        color: #F5F5F5
+        text-decoration: none
+      p
+        font-family: sans-serif
+        font-size: .8em
+        color: #a0a0a0
+        margin-top: 1em
+        
+
+    li:hover
+      animation-name: link-animation 
+      animation-duration: 0.5s
+    
+    #shift-alert.alert 
+      color: #28b58f
+      
+
+    @keyframes link-animation 
+      from 
+        width: 0px
+      to 
+        width: 84px
+
+  
+footer.footer::before
+  background-image: url(/img/hero-bg.svg)
+  background-position: top
+  background-repeat: no-repeat
+  background-size: cover
+  content: ""
+  height: 200px
+  left: 0
+  position: absolute
+  top: -150px
+  width: 100%
+  +desktop
+    top: -195px
+      
