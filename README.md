@@ -29,7 +29,7 @@ It is not a real project and the assets that I've used in this project are not m
 
 #### Basic Usage:
 
-* Instllation - `$ npm install`
+* Installation - `$ npm install`
 * Boot up local development server - `$ npm start`
 * If Gulp install globally - `$ gulp serve`
 
