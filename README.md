@@ -59,6 +59,4 @@ It is not a real open source project. And the assets that I've used in this proj
 
 
 
-> "Never be afraid to fail. Failure is only a stepping stone to
-> improvement. Never be overconfident because that will block your
-> improvement." - Tony Jaa
+> "We all need people who will give us feedback. That's how we improve. - Bill Gates
