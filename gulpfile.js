@@ -64,6 +64,9 @@ gulp.task('copy-assets', function () {
 
   gulp.src('src/assets/stickers/*')
   .pipe(gulp.dest('dist/img'));
+
+  gulp.src('src/assets/fonts/*')
+  .pipe(gulp.dest('dist/fonts'));
 });
 
 // Compress the dist folder
