@@ -19,6 +19,7 @@ window.addEventListener('keyup', function(e) {
 const app = new Vue({
   el: '#root',
   data: {
-    hamburgerToggle: false
+    hamburgerToggle: false,
+    showHiddenFooter: false
   }
 })
