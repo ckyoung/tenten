@@ -1,0 +1,67 @@
+section.hero 
+  font-family: Input Serif
+  width: 100%
+  background: #1D1D1D
+  color: white
+  padding: 6em 0
+  margin-bottom: 10em
+  position: relative
+  margin-top: 8em
+  +desktop
+    margin-top: 15em
+  .container
+    padding: 0 1em
+    justify-content: space-around
+    display: flex
+    flex-direction: column-reverse
+    .right-item
+      margin-bottom: 2em
+    +desktop
+      padding: 0 2em
+      flex-direction: row
+      .left-item
+        width: 80%
+        margin-right: 3em
+        text-align: right
+        margin-top: 5%
+  h1
+    margin-bottom: .5em
+    font-size: 1.8em
+    line-height: 1.2em
+    #green-heading
+      color: #28B58F
+    +desktop
+      font-size: 2em
+  p
+    font-family: sans-serif
+    color: #878787
+
+section.hero::before
+  background-image: url(/img/hero-bg.svg)
+  background-position: top
+  background-repeat: no-repeat
+  background-size: cover
+  content: ""
+  height: 200px
+  left: 0
+  position: absolute
+  top: -150px
+  width: 100%
+  +desktop
+    top: -195px
+
+section.hero::after
+  background-image: url(/img/hero-bg.svg)
+  background-position: top
+  background-repeat: no-repeat
+  background-size: cover
+  content: ""
+  height: 200px
+  left: 0
+  position: absolute
+  bottom: -150px
+  width: 100%
+  transform: rotate(180deg)
+  +desktop
+    bottom: -195px
+ 
