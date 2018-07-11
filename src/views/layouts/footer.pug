@@ -1,8 +1,8 @@
-footer.footer
+footer.footer.wow.fadeInUp(data-wow-duration="2s")
   .container
     ul.links
       li
-        a#shift-alert(href="") DEVELOPMENT
+        a#shift-alert(@click="showHiddenFooter = !showHiddenFooter") DEVELOPMENT
         p Press Shiftkey
       li
         a(href="") INTERN
@@ -10,4 +10,29 @@ footer.footer
         a(href="") INTERN
 
     section.find-here
-      h1.wow.bounceInRight(data-wow-duration="2s") FIND YOUR DREAM JOB HERE
+      h1.wow.bounceInRight(data-wow-duration="3s") FIND YOUR DREAM JOB HERE
+
+  .container.end
+    ul.external-links
+      li
+        a(href="#")
+          img(src="img/medium-1.svg", alt="medium")
+      li
+        a(href="#")
+          img(src="img/facebook-1.svg", alt="facebook")
+
+      li
+        a(href="#")
+          img(src="img/blog-1.svg", alt="blog")
+      li
+        a(href="#")
+          img(src="img/instagram-1.svg", alt="instagram")
+    
+    .footer-logobar
+      figure
+        img(src="img/tenten-logo-white.svg", alt="/tenten-logo-white" )
+      p Tenten is a leading digital agency in Taipei, Taiwan with a collective mix of skills, experience, ideas and know-how. We offer web design, web development, e-commerce, branding strategy, digital marketing, SEO services, and digital consulting. We create brands, campaigns and digital platforms that help our clients grow and thrive.
+
+footer.footer-hidden.animated.fadeInUp(:class="{'is-active' : showHiddenFooter }" @click="showHiddenFooter = !showHiddenFooter ")
+  .container
+    h1 I don't know what will I put here. (Just click this container to exit)
