@@ -35,10 +35,10 @@ It is not a real project and the assets that I've used in this project are not m
 ## My Workflow
 
  1. **Making a Folder & File Structure**
-	First, I make a folder & file structure, so the development will be easy and maintainable.
+	- First, I make a folder & file structure, so the development will be easy and maintainable.
  
  2. **Installing and Configuring Development Environment**
-	 I install all necessary Gulp task packages such as Babel, Pug, Sass etc...
+	- I install all necessary Gulp task packages such as Babel, Pug, Sass etc...
 	 And after that I configure Gulp browsers-sync for real time browser development.
 
 3. **Developing using Pug and SASS**
