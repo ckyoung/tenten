@@ -1,7 +1,7 @@
 # Tenten Co. Frontend Challenge
 
 This project is only made to prove my **skills** and **workflow** in front-end web development.
-It is not a real project and the assets that I've used in this project are not mine.
+It is not a real open source project. And the assets that I've used in this project are not mine.
 
 
 #### My DevDependcies:
