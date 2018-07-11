@@ -20,10 +20,10 @@ gulp.task('serve', tasks, function() {
       }
   });
 
+
   gulp.watch("src/js/*.js", ['scripts']).on('change', browserSync.reload);
-  gulp.watch("src/sass/*.sass", ['styles']).on('change', browserSync.reload);
-  gulp.watch("src/views/layouts/*.pug", ['pug']).on('change', browserSync.reload);
-  gulp.watch("src/views/*.pug", ['pug']).on('change', browserSync.reload);
+  gulp.watch("src/sass/**/*.sass", ['styles']).on('change', browserSync.reload);
+  gulp.watch("src/views/**/*.pug", ['pug']).on('change', browserSync.reload);
 });
 
 // Compile SASS, autoprefix and minified the CSS 
@@ -42,7 +42,7 @@ gulp.task('styles', function() {
 // Use Babel for better Javascript browser compatibily
 // Minify Javascript
 gulp.task('scripts', function() {
-  gulp.src('src/js/main.js')
+  gulp.src('src/js/*.js')
   .pipe(babel({
     presets: ['env']
   }))
@@ -59,14 +59,18 @@ gulp.task('pug', function () {
 
 // Copy assets to dist folder
 gulp.task('copy-assets', function () {
-  gulp.src('src/assets/svg/*.svg')
-  .pipe(gulp.dest('dist/img'));
-
-  gulp.src('src/assets/stickers/*')
+  gulp.src([
+    'src/assets/svg/*.svg', 
+    'src/assets/stickers/*', 
+    'src/assets/images/*'
+  ])
   .pipe(gulp.dest('dist/img'));
 
   gulp.src('src/assets/fonts/*')
   .pipe(gulp.dest('dist/fonts'));
+
+  gulp.src('src/assets/favicons/*')
+  .pipe(gulp.dest('dist'));
 });
 
 // Compress the dist folder
