@@ -48,7 +48,7 @@ It is not a real open source project. And the assets that I've used in this proj
 	- I use Vuejs to make UI interaction more simple and easily extensible.
 	
 6. **Animating using Wow and AnimateCSS**
-	- Wow and AnimateCSS simplify my UI animation and at the same it can easily use for future my purpose.
+	- Wow and AnimateCSS simplify my UI animation and at the same it can easily use for my future purpose.
 	
 7. **Committing in Git with understandable message**
 	- I commit my files to Git with understandable message so I can easily maintain my source code.
@@ -59,4 +59,4 @@ It is not a real open source project. And the assets that I've used in this proj
 
 
 
-> "We all need people who will give us feedback. That's how we improve. - Bill Gates
+> "We all need people who will give us feedback. That's how we improve." - Bill Gates
